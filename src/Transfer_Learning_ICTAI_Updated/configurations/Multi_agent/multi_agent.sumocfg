@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-17 18:44:57 by Eclipse SUMO sumo Version v1_21_0+0963-2076002d396
+-->
+
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="multi_agent.net.xml"/>
+        <route-files value="multi_agent.rou.xml"/>
+        <additional-files value="multi_agent.add.xml,multi_agent.med.add.xml"/>
+    </input>
+
+</sumoConfiguration>

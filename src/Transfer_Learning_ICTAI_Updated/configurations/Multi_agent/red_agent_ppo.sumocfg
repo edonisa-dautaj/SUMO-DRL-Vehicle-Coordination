@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-22 10:17:14 by Eclipse SUMO sumo Version v1_21_0+0963-2076002d396
+-->
+
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="multi_agent.net.xml"/>
+
+        <!-- PPO test route file.
+             The original red_agent.rou.xml is kept unchanged.
+             This file is used only when I want to test PPO with extra randomness in the environment. -->
+        <route-files value="red_agent_ppo.rou.xml"/>
+
+        <additional-files value="red_agent.add.xml,red_agent.med.add.xml"/>
+    </input>
+
+</sumoConfiguration>
